@@ -25,7 +25,7 @@ export default function App() {
   };
 
   return (
-    <div className="w-screen h-screen">
+    <div className="h-screen w-screen">
       <Canvas camera={{ position: [0, 0, 15] }}>
         <ambientLight intensity={Math.PI / 2} />
         <directionalLight position={[2, 2, 2]} />
