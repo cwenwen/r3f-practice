@@ -11,9 +11,14 @@ A tiny React Three Fiber project that showcases interactive 3D elements with a d
 - 🎭 3D interactivity – a lightweight and interactive experience powered by R3F.
 - ⚡ Fast development – uses Vite for a quick and optimized build process.
 
-## Screenshot
+## Screenshots
 
-![Preview](https://github.com/user-attachments/assets/2a01215d-763a-4a6b-b018-396f6f055163)
+![Preview](https://github.com/user-attachments/assets/1ffe56da-8128-46d1-b330-87e4b35181ee)
+
+<!-- prettier-ignore -->
+|Device width < `768px`|Device width < `1024px`|
+|-|-|
+|<img width="360" alt="Image" src="https://github.com/user-attachments/assets/0292dbfb-aa48-4b39-b228-b3f146a819c8" />|<img width="680" alt="Image" src="https://github.com/user-attachments/assets/b0d119c8-fd51-4145-bcf8-1d659a1083a9" />|
 
 ## Tech Stack
 
