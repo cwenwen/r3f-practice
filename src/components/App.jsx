@@ -1,7 +1,8 @@
 import { Canvas, useThree } from '@react-three/fiber';
 import { CameraControls } from '@react-three/drei';
-import Sky from './Sky.jsx';
 import { useEffect } from 'react';
+import Sky from './Sky.jsx';
+import Instructions from './Instructions.jsx';
 
 export default function App() {
   const AdjustCamera = () => {
@@ -61,6 +62,7 @@ export default function App() {
         />
         <AdjustCamera />
       </Canvas>
+      <Instructions />
     </div>
   );
 }

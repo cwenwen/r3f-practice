@@ -1,12 +1,7 @@
 export default function Overlay() {
   return (
     <div className="pointer-events-none absolute top-0 left-0 h-full w-full leading-8 font-medium text-gray-500">
-      <div
-        className="absolute top-1/2 left-1/2"
-        style={{
-          transform: 'translate3d(-50%,-50%,0)',
-        }}
-      >
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <h1 className="text-9xl font-bold tracking-tighter md:text-[12rem] lg:text-[16rem]">
           dream
         </h1>
