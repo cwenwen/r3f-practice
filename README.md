@@ -1,12 +1,75 @@
-# React + Vite
+# R3F Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A tiny React Three Fiber project that showcases interactive 3D elements with a dynamic animated background.
 
-Currently, two official plugins are available:
+#### [Live Demo](https://cwenwen.github.io/r3f-practice/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- 🌤️ Animated background – dynamic clouds and sky movement.
+- 📱 Responsive design – adjusts smoothly to different screen sizes.
+- 🎭 3D interactivity – a lightweight and interactive experience powered by R3F.
+- ⚡ Fast development – uses Vite for a quick and optimized build process.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshot
+
+![Preview](https://github.com/user-attachments/assets/2a01215d-763a-4a6b-b018-396f6f055163)
+
+## Tech Stack
+
+- `React Three Fiber` – 3D rendering
+- `Three.js` – core WebGL library
+- `React` – UI framework
+- `Vite` – fast build tool
+- `Tailwind CSS` - styling
+- `ESLint`, `Prettier` - code formatting
+
+## Project Structure
+
+```
+.
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── App.jsx      # Main app component
+│   │   ├── Overlay.jsx  # UI overlay
+│   │   └── Sky.jsx      # Sky background animation
+│   ├── index.css        # Global styles
+│   └── main.jsx         # Entry point
+├── index.html
+├── package.json         # Project metadata
+└── README.md            # Documentation
+```
+
+## Get started
+
+Clone the repository:
+
+```sh
+git clone https://github.com/cwenwen/r3f-practice.git
+cd r3f-practice
+```
+
+Install dependencies:
+
+```sh
+yarn install
+```
+
+Start the development server on port 5173:
+
+```sh
+yarn dev
+```
+
+Build for production:
+
+```sh
+yarn run build
+```
+
+## License
+
+This project is open-source and available under the MIT License.
+
+Made with 🧡 by [cwenwen](https://github.com/cwenwen)
